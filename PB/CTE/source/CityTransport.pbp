@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns="http://www.purebasic.com/namespace" version="1.0" creator="PureBasic 5.11 (Windows - x64)">
+  <section name="config">
+    <options closefiles="1" openmode="0" name="CityTransport"/>
+    <comment>
+      2D local public transportation game
+    </comment>
+  </section>
+  <section name="data">
+    <explorer view="..\..\..\Documents\" pattern="0"/>
+    <log show="1"/>
+    <lastopen date="2014-07-11 23:01" user="Alexander" host="ALEXANDER-TOWER"/>
+  </section>
+  <section name="files">
+    <file name="main.pb">
+      <config load="0" scan="1" panel="1" warn="1" lastopen="1" panelstate="+"/>
+      <fingerprint md5="8ed9b534b9150f7e3dc89109b11d6a65"/>
+    </file>
+    <file name="engine.pbi">
+      <config load="0" scan="1" panel="1" warn="1" lastopen="1" panelstate="+"/>
+      <fingerprint md5="734670d7a7895cd369fd0eb69158c3a4"/>
+    </file>
+    <file name="game.pbi">
+      <config load="0" scan="1" panel="1" warn="1" lastopen="1" panelstate="+"/>
+      <fingerprint md5="289a5c2bf84a9232b4370691a7e912c2"/>
+    </file>
+    <file name="menu.pbi">
+      <config load="0" scan="1" panel="1" warn="1" lastopen="1" panelstate="+"/>
+      <fingerprint md5="d41d8cd98f00b204e9800998ecf8427e"/>
+    </file>
+    <file name="init.pbi">
+      <config load="0" scan="1" panel="1" warn="1" lastopen="1" panelstate="+"/>
+      <fingerprint md5="84b3b156a48ad134f1c7ab2481cd6e8e"/>
+    </file>
+  </section>
+  <section name="targets">
+    <target name="Default Target" enabled="1" default="1">
+      <inputfile value="main.pb"/>
+      <outputfile value="Executable\CityTransport.exe"/>
+      <executable value="Executable\CityTransport.exe"/>
+      <options thread="1" xpskin="1" user="1" debug="1"/>
+      <temporaryexe value="source"/>
+      <compilecount enable="1" value="137"/>
+      <buildcount enable="1" value="9"/>
+      <execonstant enable="1"/>
+      <versioninfo enable="1">
+        <field0 value="0.0.1.%BUILDCOUNT"/>
+        <field2 value="AlexanderNaehring.eu"/>
+        <field3 value="CityTransport"/>
+        <field4 value="%COMPILECOUNT"/>
+        <field5 value="%COMPILECOUNT"/>
+        <field6 value="Simple 2D local public transport game"/>
+        <field7 value="CTG"/>
+        <field8 value="%EXECUTABLE"/>
+        <field9 value="Alexander Nähring"/>
+        <field13 value="info@alexandernaehring.eu"/>
+        <field14 value="http://www.alexandernaehring.eu"/>
+        <field17 value="0409 English (United States)"/>
+      </versioninfo>
+    </target>
+  </section>
+</project>
