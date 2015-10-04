@@ -1,6 +1,6 @@
 ﻿; batch file rename
 
-path$ = PathRequester("Select Path", "\\nas\private\private\p\A N\14-03-30\")
+path$ = PathRequester("Select Path", GetClipboardText())
 
 If path$ = ""
   End
@@ -52,8 +52,3 @@ Wend
 FinishDirectory(dir)
 Debug "end"
 End
-
-; IDE Options = PureBasic 5.30 (Windows - x64)
-; CursorPosition = 2
-; EnableUnicode
-; EnableXP
